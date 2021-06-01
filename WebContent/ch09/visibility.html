@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	img{
+	margin:10px;
+	padding:5px;
+	border:1px solid black;
+	}
+	.invisible{
+		visibility:hidden;
+	}
+	div#wrapper{
+		position:relative;
+	}
+	#b1{
+	z-index:1;
+	bottom:10px;
+	width:300px;
+		height:150px;
+	background:black;
+	}
+	#b2{
+	z-index:3;
+	width:300px;
+		height:150px;
+	bottom:100px;
+	right
+	background:red;
+	}
+	
+	#b3{
+	z-index:1;
+	width:300px;
+	height:150px;
+	bottom:30px;
+	background:blue;}
+</style>
+</head>
+<body>
+	<img src="images/pic1.jpg">
+	<img src="images/pic2.jpg" class="invisible">
+	<img src="images/pic3.jpg">
+	
+	<div id="wrapper">
+		<div class="box" id="b1">1</div>
+		<div class="box" id="b2">2</div>
+		<div class="box" id="b3">3</div>
+	</div>
+</body>
+</html>

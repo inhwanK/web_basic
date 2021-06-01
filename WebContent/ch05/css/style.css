@@ -1,0 +1,10 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+h2 {
+  color:blue; /* 글자 색 */
+  font-family:'Jeju Hallasan', cursive;	
+}
+p {
+  font-size:0.9em;  /* 글자 크기 */
+  line-height: 2.0;  /* 줄간격 */
+  font-family:'Jeju Hallasan', cursive;	
+}

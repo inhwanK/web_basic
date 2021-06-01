@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.shadow1{
+	color: white;
+	text-shadow: 4px 4px #00f;
+}
+.shadow2{
+	color: orange;
+	text-shadow: 4px 4px 5px #f00;
+}
+.shadow3{
+	color: #fff;
+	text-shadow: 8px -8px #00f;
+}

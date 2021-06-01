@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.box:hover{
+/* 	-webkit-transform:rotate(15deg);
+	-moz-transform:rotate(15deg);
+	-o-transform:ratate(15deg);
+	-ms-transform:ratate(15deg); */
+	transform:ratate(15deg);
+}
+
+.box{
+	position:absolute;
+	width:100px;
+	height:60px;
+	line-height:60px;
+	left:50px;
+	top:70px;
+	text-align:center;
+	border:2px solid green;
+}

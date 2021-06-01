@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.box1{
+		float:left;
+		padding:20px;
+		margin-right:10px;
+		
+		background: red
+	}
+	.box2{
+		float:left;
+		margin-right:10px;
+		padding:20px;
+		background: blue
+	}
+	.box3{
+		float:left;
+		padding:20px;
+		background: green;
+	}
+	.box4{
+		background:yellow;
+		padding:20px;
+		float:right;
+		border:1px solid black;
+	}

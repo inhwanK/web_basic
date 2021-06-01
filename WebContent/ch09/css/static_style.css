@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#wrap{
+	position:relative;
+	width:300px;
+	heght:300px;
+	border:1px solid #ccc;
+}
+.box{
+	position:absolute;
+	width:50px;
+	height:50px;
+	background:#0094ff;
+}
+.box1{
+	position:relative;
+	float:left;
+	width:100px;
+	top:300px;
+	background:#ffd800;
+	margin-right:10px;
+	padding:20px;
+}
+.box2{
+	position:relative;
+	left:-50px;
+	top:30px;
+	width:300px;
+	background:#0094ff;
+	float:left;
+	padding:20px;
+}
+#crd1{top:0; left:0;}
+#crd2{top:0; right:0;}
+#crd3{bottom:0; right:0;}
+#crd4{top:100px; left:100px;}

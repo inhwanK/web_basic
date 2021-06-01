@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.origin{
+					width: 210px;
+				height: 200px;
+				border: 1px solid black;
+				float: left;
+				margin: 40px;
+}
+
+.rotate1:hover{
+	transform: rotate(25deg);
+}
+.rotate2:hover{
+	transform: rotate(10deg);
+}

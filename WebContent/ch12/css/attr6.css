@@ -1,0 +1,24 @@
+@charset "UTF-8";
+  		ul {
+		 list-style:none;
+   		}
+	 	li {
+		 width:120px;	 
+		 display:inline-block;
+		 margin:10px;
+	 	}
+ 		li a {
+			padding: 5px 20px;
+			font-size: 14px;
+			color: blue;
+			text-decoration: none;
+		}  
+		/* 지정한 값으로 끝나는 요소에 스타일 적용 */ 
+ 		a[href $="hwp"]{
+ 			background: url(../images/hwp_icon.gif) no-repeat left center;
+ 			padding:25px;
+ 		}
+ 		a[href $="xls"]{
+ 			background: url(../images/excel_icon.gif) no-repeat left center;
+ 			padding:25px;
+ 		}

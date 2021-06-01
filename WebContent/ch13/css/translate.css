@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.movex:hover{
+	transform: translateX(2000px);
+	transition: 9s;
+}
+.movey:hover{
+	transform: translateY(50px);
+}
+.movexy:hover{
+	transform: translate(50px ,40px);
+}
